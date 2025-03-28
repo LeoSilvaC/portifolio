@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    text-align: center;
+}
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #00ffcc;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://source.unsplash.com/1600x900/?technology,dark') no-repeat center;
+    background-size: cover;
+}
+.hero h1 {
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.sobre{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sobre h2{
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 80px 20px;
+}
+.projeto {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.projeto:hover {
+    transform: scale(1.05);
+}
+.botao {
+    background: #00ffcc;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link-projeto{
+    display: flex;
+    text-decoration: none;
+    margin-top: 1rem;
+    color: #fff;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.botao:hover {
+    background: #009977;
+}
+footer {
+    background: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
